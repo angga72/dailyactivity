@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: dailyreport_production
-  username: dailyreport
+  username: ndp
   password: <%= ENV['DAILYREPORT_DATABASE_PASSWORD'] %>
